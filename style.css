@@ -1,0 +1,123 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding:100px;
+}
+.face{
+    width:400px;
+    height:400px;
+    background-color: pink;
+    border-radius: 50%;
+    position: fixed;
+    margin-top: 8px;
+    
+    
+    border:1px solid ;
+    
+}
+
+.leye{
+    display: flex;
+    justify-content: center;
+    
+    width:100px;
+    height:100px;
+    background-color: white;
+    border-radius: 50%;
+
+
+}
+.reye{
+    display: flex;
+    justify-content: center;;
+    width:100px;
+    height:100px;
+    background-color: white;
+    border-radius: 50%;
+
+
+}
+.eyes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:120px;
+    transition: transform 0.5s;
+
+}
+.leyeball{
+    margin-top: 40px;
+    width:40px;
+    height:40px;
+    background-color: rgb(60, 59, 59);
+    border-radius: 59%
+}
+.reyeball{
+    margin-top: 40px;
+    width:40px;
+    height:40px;
+    background-color: rgb(60, 59, 59);
+    border-radius: 59%
+}
+.mouth{
+    width:130px;
+    height:60px;
+    background:rgb(238, 7, 7);
+    border: 2px solid ;
+    border-radius: 30px;
+    margin-left:140px;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+.nose1{
+    width:35px;
+    height:35px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top:10px;
+    position: relative;
+}
+.nose2{
+    width:35px;
+    height:35px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top:10px;
+    position: relative;
+}
+.lear{
+    width:150px;
+    height:200px;
+    background-color: pink;
+    border: 1px solid;
+    border-radius: 60% 60% 60% 60%;}
+
+.rear{
+    width:150px;
+    height:200px;
+    background-color: pink;
+    margin-left:130px;
+    border-radius:  60% 60% 60% 60%;
+    border: 1px solid;
+   
+}
+.ears{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .face:hover .nose1{
+   height: 50px;
+   width: 50px;
+}
+.face:hover .nose2{
+    height: 50px;
+    width: 50px;
+ }
+ 
+ 
+
